@@ -1,5 +1,17 @@
-#!/usr/bin/env python
-
+####################################################################################################
+# 2019-07-03, Credo BALD EAGLE SDK Software scripts
+#
+# CREDO Semiconductors Inc. Confidential
+# 
+####################################################################################################
+# These sets of scripts are for use with Bald Eagle, with the Binary FW
+#
+# To be able to run the functions inside this file, execute this file at the python prompt:
+#
+#      >>> execfile("CredoSdk.py")
+# 
+#
+####################################################################################################
 from __future__ import division
 import re, sys, os, time, datetime, struct
 from sys import *
@@ -17567,3 +17579,7 @@ def Cameo_credo400G(card):
 if __name__ == "__main__":
     card=int(sys.argv[1])
     Cameo_credo400G(card)
+       
+    
+########################################################################################################################################    
+########################################################################################################################################    
