@@ -33,7 +33,6 @@ class SfpUtil(SfpUtilBase):
 
     def get_attr_value(self,attr_path):
         retval = 'ERR'
-        fd = 0
         try:
             with open(attr_path, 'r') as fd:
                 retval = fd.read()
