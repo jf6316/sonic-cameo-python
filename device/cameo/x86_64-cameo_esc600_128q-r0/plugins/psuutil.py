@@ -82,7 +82,6 @@ class PsuUtil(PsuBase):
         :return: Boolean, True if PSU is plugged, False if not
         """
         status = 0
-        psu_absent = 0
         attr_file ='psu_present'
         presence_path = attr_path+'ESC600_PSU/' + attr_file
         try:
